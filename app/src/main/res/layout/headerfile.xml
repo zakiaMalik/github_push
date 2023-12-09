@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:background="@drawable/img_3"
+
+    android:layout_height="226dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="Header Image"
+        android:src="@drawable/img_1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navigation"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+
+        android:textStyle="bold"/>
+
+</LinearLayout>
